@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img class="avatar" src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Ganesh Lokhande</h1>
+
+          <p class="title">MERN Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ganesh3567lokhande@gmail.com" class="contact-link">ganesh3567lokhande@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9322103370" class="contact-link">+91 9322103370</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+
+              <a href="#" class="contact-link">ganesh-lokhande</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="#" class="contact-link">ganesh-lokhande</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am pursuing a bachelor's degree in computer engineering at Pune Institute of Computer 
+            Technology. I have a keen interest in frontend development and competitive programming. 
+            I possess good knowledge of React.js, MongoDB, Node.js, and Express.js and I am passionate 
+            about setting problems for coding events.
+          </p>
+
+          <p>
+            My aim is to contribute to the growth of the organization and impact humanity by 
+            closely working with technologies which directly benefit people.            
+          </p>
+        </section>
+
+
+        <!--
+          - Skills
+        -->
+
+        <section>
+          <h3 class="h3 testimonials-title">Skills</h3>
+
+          <div class="card-container">
+
+            <div class="card">
+              <img src="./assets/images/html-5.png" alt="Person 2">
+              <div class="card-name">HTML</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/css.webp" alt="Person 2">
+              <div class="card-name">CSS</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/javascript.png" alt="Person 2">
+              <div class="card-name">Javasript</div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/images/c-plus-plus-logo.png" alt="Person 1">
+                <div class="card-name">C++</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/java.png" alt="Person 2">
+              <div class="card-name">Java</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/python.png" alt="Person 2">
+              <div class="card-name">Python</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/react-native.png" alt="Person 2">
+              <div class="card-name">React</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/node.png" alt="Person 2">
+              <div class="card-name">Node</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/express-original.svg" alt="Person 2">
+              <div class="card-name">Express</div>
+            </div>
+            
+            <div class="card">
+              <img src="./assets/images/mongodb.png" alt="Person 2">
+              <div class="card-name">MongoDB</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/mysql-logo.png" alt="Person 2">
+              <div class="card-name">MySQL</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/figma.png" alt="Person 2">
+              <div class="card-name">Figma</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/canva.png" alt="Person 2">
+              <div class="card-name">Canva</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/firebase.png" alt="Person 2">
+              <div class="card-name">Firebase</div>
+            </div>
+          
+            <div class="card">
+              <img src="./assets/images/netlify.png" alt="Person 2">
+              <div class="card-name">Netlify</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/git.png" alt="Person 2">
+              <div class="card-name">Git</div>
+            </div>
+
+            <div class="card">
+              <img src="./assets/images/tailwindcss-plain.svg" alt="Person 2">
+              <div class="card-name">Tailwind</div>
+            </div>  
+
+            <div class="card">
+                <img src="./assets/images/netlify.png" alt="Person 2">
+                <div class="card-name">Bootstrap</div>
+            </div>
+          </div>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Profiles</h3>
+
+          <div class="profile">
+
+              <div class="profile-card">
+                <img class="profile-card-img" src="./assets/images/leetcode.png" alt="Card Image">
+                <div class="pro-content">
+                  <h1 class="card-name">LeetCode</h1>
+                  <a class="link" href="#">ganesh_93</a>
+                </div>
+              </div>
+
+              <div class="profile-card">
+                <img class="profile-card-img" src="./assets/images/gfg.png" alt="Card Image">
+                <div class="pro-content">
+                    <h1 class="card-name">GFG</h1>
+                    <a class="link" href="#">ganesh3567lokhande</a>
+                </div>
+              </div>
+
+              <div class="profile-card">
+                <img class="profile-card-img" src="./assets/images/codechef.png" alt="Card Image">
+                <div class="pro-content">
+                    <h1 class="card-name">Codechef</h1>
+                    <a class="link" href="#">ganesh_93</a>
+                </div>
+              </div>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pune Institute of Computer Technology
+                (PICT), B.E. in Computer Engineering</h4>
+
+              <span>Aug 2021- Present</span>
+
+              <p class="timeline-text">
+                CGPA: 8.80
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HSC, R.R. Shinde Junior College, Pune</h4>
+
+              <span>June 2021</span>
+
+              <p class="timeline-text">
+                Percentage: 89.50
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SSC, Sane Guruji Madhyamik Vidyalaya,
+                Pune</h4>
+
+              <span>June 2019</span>
+
+              <p class="timeline-text">
+                Percentage: 93.20
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">1) Employee Data Matrix</h4>
+
+              <span>Tech Stack: MongoDB, React.js, Node.js, Express.js</span>
+
+              <ul style="list-style-type: square; margin: 10px;">
+                <li class="timeline-text">&rarr; Build a comprehensive interface for managing information of all employees.</li>
+                <li class="timeline-text">&rarr; Implemented a user-friendly search interface allowing quick access to employee information by name.</li>
+                <li class="timeline-text">&rarr; Implemented features such as add, update, delete, and view using REST APIs.</li>
+                <li class="timeline-text">&rarr; Provided an option to download and save employee data in .csv format locally.</li>
+                <li class="timeline-text">&rarr; Included filtering capabilities based on gender and employment status.</li>
+                <li class="timeline-text">&rarr; Enabled sorting of employee records by the date they were created.</li>
+              </ul>
+
+              <div style="display: flex; align-items: center;">
+                <p class="h4 timeline-item-title" style="margin: 5px;">Link: </p>
+                <a href="#" style="color: rgb(30,144,255); overflow: hidden;">https://employee-data-matrix.netlify.app</a>
+              </div>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">2) Chat Application</h4>
+
+              <span>Tech Stack: React.js, Node.js, Firebase.</span>
+
+              <ul>
+                <li class="timeline-text">&rarr; It is a dynamic application that enables users to sign in using their google accounts 
+                  and subsequently join a shared platform for engaging in real-time conversations and interactions.</li>
+                <li class="timeline-text">&rarr; Presents an intuitive and user-friendly interface.</li>
+              </ul>
+
+              <div style="display: flex; align-items: center;">
+                <p class="h4 timeline-item-title" style="margin: 5px;">Link: </p>
+                <a href="#" style="color: rgb(30,144,255); overflow: hidden;">https://chathub93.netlify.app</a>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">3) Connect-4 Game</h4>
+
+              <span>Tech Stack: React.js, Node.js, JavaScript.</span>
+
+              <ul>
+                <li class="timeline-text">&rarr; Turn-based 2-player game played on a 4x4 board. The goal is to align four checkers horizontally, vertically or diagonally.</li>
+              </ul>
+
+              <div style="display: flex; align-items: center;">
+                <p class="h4 timeline-item-title" style="margin: 5px;">Link: </p>
+                <a href="#" style="color: rgb(30,144,255); overflow: hidden;">https://connect-4-colors.netlify.app</a>
+              </div>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
